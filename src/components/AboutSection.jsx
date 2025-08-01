@@ -8,8 +8,14 @@ export const AboutSection = () => {
           About <span className="text-primary"> Me</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+          <div className="space-y-8">
             <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
+
+            <img
+              src="/catlinh/catlinh-photo.jpg"
+              alt="CatLinh"
+              className="w-60 h-60 rounded-full shadow-md object-cover mx-auto"
+            />
             <p className="text-muted-foreground text-left">
               Final-year Computer Science student with 6 months of On-the-Job
               Training at FPT Software. Worked on API development, backend
