@@ -4,10 +4,12 @@ import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Toaster } from "./components/ui/toaster";
 
 function App() {
   return (
     <>
+      <Toaster />
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
